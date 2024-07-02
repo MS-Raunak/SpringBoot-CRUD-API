@@ -1,0 +1,14 @@
+package com.ms;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class StudentcrudSpringootApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(StudentcrudSpringootApplication.class, args);
+		System.out.println("Server Started On Port:3030");
+	}
+
+}
